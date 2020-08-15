@@ -1,0 +1,1 @@
+<view class="content"><content-index vue-id="62a400c0-1" list="{{list}}" bind:__l="__l"></content-index></view>

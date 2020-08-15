@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "模板库",
+  "usingComponents": {
+    "content-index": "/components/item-list/item-list"
+  }
+}
