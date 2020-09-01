@@ -12,11 +12,6 @@
 				"navigationBarTitleText": "组件库"
 			}
 		}
-
-        ,{
-            "path" : "components/item-list/item-list",
-            "style" : {}
-        }
         ,{
             "path" : "pages/upload/upload",
             "style" : {

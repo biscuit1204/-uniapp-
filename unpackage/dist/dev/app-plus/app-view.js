@@ -1642,19 +1642,44 @@ var render = function() {
             [
               _vm._v("图片上传"),
               _c(
-                "v-uni-view",
-                { attrs: { _i: 6 } },
+                "v-uni-scroll-view",
+                {
+                  staticClass: _vm._$g(6, "sc"),
+                  attrs: { "scroll-x": "true", "enable-flex": "true", _i: 6 }
+                },
                 [
                   _c(
-                    "v-uni-scroll-view",
+                    "v-uni-view",
                     {
                       staticClass: _vm._$g(7, "sc"),
-                      attrs: { "scroll-x": "true", _i: 7 }
+                      staticStyle: { width: "1500upx" },
+                      attrs: { _i: 7 }
                     },
                     [
-                      _c("v-uni-image", {
-                        attrs: { src: _vm._$g(8, "a-src"), mode: "", _i: 8 }
-                      })
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(8, "sc"), attrs: { _i: 8 } },
+                        [
+                          _c("v-uni-image", {
+                            attrs: { src: _vm._$g(9, "a-src"), mode: "", _i: 9 }
+                          })
+                        ],
+                        1
+                      ),
+                      _c(
+                        "v-uni-view",
+                        { staticClass: _vm._$g(10, "sc"), attrs: { _i: 10 } },
+                        [
+                          _c("v-uni-image", {
+                            attrs: {
+                              src: _vm._$g(11, "a-src"),
+                              mode: "",
+                              _i: 11
+                            }
+                          })
+                        ],
+                        1
+                      )
                     ],
                     1
                   )
@@ -1759,7 +1784,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ./node_modules/css-loader/dist/runtime/api.js */ 15);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.content {\n\t\tdisplay: -webkit-box;\n\t\tdisplay: -webkit-flex;\n\t\tdisplay: flex;\n\t\t-webkit-box-orient: vertical;\n\t\t-webkit-box-direction: normal;\n\t\t-webkit-flex-direction: column;\n\t\t        flex-direction: column;\n\t\t-webkit-box-align: center;\n\t\t-webkit-align-items: center;\n\t\t        align-items: center;\n\t\t-webkit-box-pack: center;\n\t\t-webkit-justify-content: center;\n\t\t        justify-content: center;\n\t\tcolor: #264e70;\n}\n.contentndex{\n\twidth: 675upx;\n}\n.contentItem{\n\twidth: 675upx;\n\tfont-size: 36upx;\n\tmargin: 30upx 0;\n}\n.word{\n\tmargin: 20rpx;\n\twidth: 635upx;\n\theight: 80upx;\n\tline-height: 80upx;\n\tborder: 5upx solid #264e70;\n\tborder-radius: 20upx;\n\tcolor: #264e70;\n}\n.word uni-input{\n\theight: 80upx;\n\tline-height: 80upx;\n\tpadding-left: 20upx;\n}\n.photos{\n\twidth: 1500upx;\n\theight: 120upx;\n\tbackground-color: #007AFF;\n\twhite-space: nowrap; \n\tdisplay: inline-block;\n}\n", ""]);
+exports.push([module.i, "\n.content {\r\n\tdisplay: -webkit-box;\r\n\tdisplay: -webkit-flex;\r\n\tdisplay: flex;\r\n\t-webkit-box-orient: vertical;\r\n\t-webkit-box-direction: normal;\r\n\t-webkit-flex-direction: column;\r\n\t        flex-direction: column;\r\n\t-webkit-box-align: center;\r\n\t-webkit-align-items: center;\r\n\t        align-items: center;\r\n\t-webkit-box-pack: center;\r\n\t-webkit-justify-content: center;\r\n\t        justify-content: center;\r\n\tcolor: #264e70;\n}\n.contentndex {\r\n\twidth: 675upx;\n}\n.contentItem {\r\n\twidth: 675upx;\r\n\tfont-size: 36upx;\r\n\tmargin: 30upx 0;\r\n\toverflow: hidden;\r\n\twhite-space: nowrap;\r\n\tdisplay: -webkit-box;\r\n\tdisplay: -webkit-flex;\r\n\tdisplay: flex;\r\n\t-webkit-box-orient: vertical;\r\n\t-webkit-box-direction: normal;\r\n\t-webkit-flex-direction: column;\r\n\t        flex-direction: column;\n}\n.word {\r\n\tmargin: 20rpx;\r\n\twidth: 635upx;\r\n\theight: 80upx;\r\n\tline-height: 80upx;\r\n\tborder: 5upx solid #264e70;\r\n\tborder-radius: 20upx;\r\n\tcolor: #264e70;\n}\n.word uni-input {\r\n\theight: 80upx;\r\n\tline-height: 80upx;\r\n\tpadding-left: 20upx;\n}\n.photos {\r\n\theight: 220upx;\r\n\tdisplay: inline-block;\r\n\t/* display: flex; */\n}\n.photosIndex {\r\n\tdisplay: -webkit-box;\r\n\tdisplay: -webkit-flex;\r\n\tdisplay: flex;\r\n\t/* width: 1500upx; */\n}\n.contentItem uni-image {\r\n\twidth: 200upx;\r\n\theight: 200upx;\r\n\tmargin: 10upx;\r\n\tborder-radius: 20upx;\n}\n.userUploadPhotos {\r\n\theight: 220upx;\n}\n.addPhotosButton {\r\n\twidth: 180upx;\r\n\theight: 180upx;\r\n\tmargin: 10upx;\r\n\tborder-radius: 20upx;\r\n\tborder: #264e70 solid 10upx;\n}\n.addPhotosButton uni-image {\r\n\twidth: 160upx;\r\n\theight: 160upx;\r\n\tz-index: 99;\n}\r\n", ""]);
 // Exports
 module.exports = exports;
 

@@ -1,0 +1,48 @@
+
+.contentItem {
+	width: 675rpx;
+	font-size: 36rpx;
+	margin: 30rpx 0;
+	overflow: hidden;
+	white-space: nowrap;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.photos {
+	height: 220rpx;
+	display: inline-block;
+	/* display: flex; */
+}
+.photosIndex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	/* width: 1500upx; */
+}
+.contentItem image {
+	width: 200rpx;
+	height: 200rpx;
+	margin: 10rpx;
+	border-radius: 20rpx;
+}
+.userUploadPhotos {
+	height: 220rpx;
+}
+.addPhotosButton {
+	width: 180rpx;
+	height: 180rpx;
+	margin: 10rpx;
+	border-radius: 20rpx;
+	border: #264e70 solid 10rpx;
+}
+.addPhotosButton image {
+	width: 160rpx;
+	height: 160rpx;
+	/* z-index: 99;	 */
+}
+
